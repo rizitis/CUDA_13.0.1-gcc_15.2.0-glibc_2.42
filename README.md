@@ -3,7 +3,7 @@
 
 Build a CUDA-enabled project (like llama.cpp) on Slackware64 Current with (GCC) 15.2.0, glibc-2.42 and CUDA 13.0.1 (for fedora) toolkit. (19/09/2025)
 
-1. DOWNLOAD fedora installer: `wget https://developer.download.nvidia.com/compute/cuda/13.0.1/local_installers/cuda_13.0.1_580.82.07_linux.run`
+1. DOWNLOAD fedora installer: `wget https://developer.download.nvidia.com/compute/cuda/13.0.1/local_installers/cuda_13.0.1_580.82.07_linux.run --override`
 
 2. run installer: `sh cuda_13.0.1_580.82.07_linux.run`
 
