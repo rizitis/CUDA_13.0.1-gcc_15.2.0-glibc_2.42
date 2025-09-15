@@ -1,4 +1,4 @@
-# TAKE BACKUP!!! BEFORE DO ANYTHING...
+# TAKE BACKUP!!! BEFORE DO ANYTHING... OR BE READY TO REINSTALL SLACKWARE
 ## Do You like to live dangerously? then continue else stop now **(suggested to stop now)**
 
 Build a CUDA-enabled project (like llama.cpp) on Slackware64 Current with (GCC) 15.2.0, glibc-2.42 and CUDA 13.0.1 (for fedora) toolkit. (19/09/2025)
