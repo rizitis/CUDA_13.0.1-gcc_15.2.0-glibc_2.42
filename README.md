@@ -25,4 +25,5 @@ sed -i 's/noexcept (true)//g' /usr/local/cuda-13.0/targets/x86_64-linux/include/
 4. cd to you llama.cpp clone (assume its updated...) and build:
  - `cmake -B build-cuda -DGGML_CUDA=ON`
  - `cmake --build build-cuda --config Release`
- 
+
+ 5. `slackpkg reinstall kernel-headers glibc`
