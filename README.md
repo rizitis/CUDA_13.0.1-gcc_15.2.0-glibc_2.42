@@ -26,7 +26,7 @@ sed -i 's/noexcept (true)//g' /usr/local/cuda-13.0/targets/x86_64-linux/include/
  - `cmake -B build-cuda -DGGML_CUDA=ON`
  - `cmake --build build-cuda --config Release`
 
- 5. You said np to live dangerously?
+ 5. I'm walking on the cliff, I feel brave and if it breaks, I'll fix it.
     
 ```
   slackpkg reinstall \
