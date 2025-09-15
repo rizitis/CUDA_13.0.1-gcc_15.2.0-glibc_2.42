@@ -33,5 +33,6 @@ sed -i 's/noexcept (true)//g' /usr/local/cuda-13.0/targets/x86_64-linux/include/
   glibc \
   aaa_glibc-solibs \
   linux-headers \
-  gcc 
+  gcc \
+  llvm
   ```
