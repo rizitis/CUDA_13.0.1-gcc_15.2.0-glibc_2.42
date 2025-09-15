@@ -1,5 +1,5 @@
 # TAKE BACKUP!!! BEFORE DO ANYTHING...
-
+## Do You like to live dangerously? then continue else stop now **(suggested to stop now)**
 
 Build a CUDA-enabled project (like llama.cpp) on Slackware64 Current with (GCC) 15.2.0, glibc-2.42 and CUDA 13.0.1 (for fedora) toolkit. (19/09/2025)
 
@@ -26,4 +26,15 @@ sed -i 's/noexcept (true)//g' /usr/local/cuda-13.0/targets/x86_64-linux/include/
  - `cmake -B build-cuda -DGGML_CUDA=ON`
  - `cmake --build build-cuda --config Release`
 
- 5. `slackpkg reinstall kernel-headers glibc`
+ 5. You said np to live dangerously?
+    
+```
+  slackpkg reinstall \
+  glibc \
+  glibc-solibs \
+  glibc-devel \
+  linux-headers \
+  gcc \
+  libstdc++ \
+  libstdc++-devel
+  ```
