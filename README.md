@@ -30,8 +30,8 @@ sed -i 's/noexcept (true)//g' /usr/local/cuda-13.0/targets/x86_64-linux/include/
     
 ```
   slackpkg reinstall \
-  glibc \
   aaa_glibc-solibs \
+  glibc \
   linux-headers \
   gcc \
   llvm
