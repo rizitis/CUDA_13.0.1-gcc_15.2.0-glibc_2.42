@@ -31,10 +31,7 @@ sed -i 's/noexcept (true)//g' /usr/local/cuda-13.0/targets/x86_64-linux/include/
 ```
   slackpkg reinstall \
   glibc \
-  glibc-solibs \
-  glibc-devel \
+  aaa_glibc-solibs \
   linux-headers \
-  gcc \
-  libstdc++ \
-  libstdc++-devel
+  gcc 
   ```
